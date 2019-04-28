@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.head-info {
+    min-height: 45px;
+    background: #7a6cf7;
+    display: flex;
+}
+
+.logo {
+    cursor: pointer;
+    width: 183px;
+    height: 43px;
+    background-image: url(../img/logo.png);
+    margin-left: 50px;
+    margin-top: 3px;
+    margin: 0 auto;
+}
+
+.version {
+    position: fixed;
+    margin-left: 90%;
+    color: #492e46;
+    transition: 0.4s;
+    opacity: 0.5;
+}
+
+.version:hover {
+    opacity: 1;
+    font-size: 20px;
+    transition: 0.6s
+}
+
+.icon {
+    position: fixed;
+    margin-top: 13%;
+    margin-left: 1%;
+}
+
+.icon ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column
+}
+
+.icon li {
+    list-style: none;
+    margin-top: 36px;
+    opacity: 0.3;
+}
+
+.icon li:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.container {
+    width: 1053px;
+    margin: 0 auto;
+}
+
+.kart-start {
+    height: 242px;
+    background-image: url(../img/kart%200.png);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.kart-start p {
+    font-size: 62px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.kart-start-text {
+    display: flex;
+    justify-content: center;
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.kart-boss {
+    width: 512px;
+    height: 621px;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.kart-boss:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.kart-shop {
+    width: 512px;
+    height: 621px;
+    margin-top: 20px;
+    margin-left: 28px;
+    opacity: 0.7;
+}
+
+.kart-shop:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.boss-info {
+    color: #767676;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.boss-info-text {
+    color: #d2d2d2;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.boss-list ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.boss-list li {
+    list-style: none;
+    margin-right: 20px;
+    cursor: grab;
+    opacity: 0.7;
+}
+
+.boss-list li:hover {
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.error {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    cursor: not-allowed;
+    color: black;
+    transition: 0.9s;
+}
+
+.error:hover {
+    font-size: 90px;
+    color: red;
+    transition: 1.5s;
+}
